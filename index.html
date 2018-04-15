@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Horloge</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+<body>
+	
+	<audio id="son" src="son.wav"></audio>
+
+	<div class="blockVolume">
+		<div class="volumeContainer">
+			<i class="fas fa-volume-up volon"></i>
+			<i class="fas fa-volume-off voloff"></i>
+		</div>
+	</div>
+
+	<div class="block">
+		<div class="clockBlock">
+
+			<img id="clock" src="images/clock.png" alt="">
+
+			<div id="digitBlock">
+				<p id="digitBox"></p>
+			</div>
+
+			<img id="hours" src="images/neddlehours.png" alt="">
+
+			<img id="minutes" src="images/needleminutes.png" alt="">
+
+			<img id="seconds" src="images/neddleseconds.png" alt="">
+
+			<img id="center" src="images/center.png" alt="">
+
+		</div>
+	</div>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> 
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
